@@ -4,9 +4,12 @@
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta content="utf-8" http-equiv="encoding">
 	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Syne+Mono&family=Train+One&display=swap" rel="stylesheet"> 
 </head>
 <body>
-	<h1>Welcome to the Tic-Tac-Toe Game</h1>
+	<h1>Tic-Tac-Toe</h1>
+	<div style="display: flex;">
 	<div id="main-branch">
 		<div class="coloumn">
 			<div class="box" onclick="generate(this)">
@@ -41,6 +44,15 @@
 				<p class="symbol"></p>
 			</div>
 		</div>
+	</div>
+	<div id="rule-box">
+		<h4>Rules:</h4>
+		<ol>
+			<li>The game can be played between 2 players at max.</li>
+			<li>The first person gets assigned 'X' while the next person is assigned 'O'.</li>
+			<li>Make sure you enjoy the Game.</li>
+		</ol>
+	</div>
 	</div>
 	<script type="text/javascript" src="./index.js"></script>
 </body>
